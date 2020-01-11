@@ -10,10 +10,7 @@ h1{
     width: 100vw;
     height: 100vh;
     position: relative;
-    background: whitesmoke;
 }
-
-
 .Featur__design__css{
     position: absolute;
     left: 0;
@@ -34,8 +31,6 @@ h1{
     transform: translateY(4px);
     box-shadow:none;
 }
-
-
 .Featur__design__css__strings{
     user-select: none;
     text-decoration: none;
@@ -43,15 +38,10 @@ h1{
     font-size: 40px;
     margin-top: 90px;
 }
-
 .Featuer_message_css{
     position: relative;
     top: 300;
     user-select: none;
     text-align: center;
     font-size: 30px;
-    width: 150px;
-    height: 150px;
-    background: pink;
-    border-radius: 50%;
 }
