@@ -1,11 +1,55 @@
+h1{
+    margin-top: -30px;
+    user-select: none;
+    letter-spacing: -6px;
+    font-size: 80pt;
+    text-align: right;
+    color:#B3B3B3
+}
 .Featur__design_Container{
     width: 100vw;
     height: 100vh;
+    position: relative;
     background: whitesmoke;
 }
 
 
 .Featur__design__css{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom :0;
+    margin:  auto;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-top: -20px;
+    border-radius: 50%;
+    background: pink;
+    box-shadow: 0px 10px 4px gray;
+    cursor: pointer;
+}
+.Featur__design__css:active{
+    transform: translateY(4px);
+    box-shadow:none;
+}
+
+
+.Featur__design__css__strings{
+    user-select: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 90px;
+}
+
+.Featuer_message_css{
+    position: relative;
+    top: 300;
+    user-select: none;
+    text-align: center;
+    font-size: 30px;
     width: 150px;
     height: 150px;
     background: pink;
