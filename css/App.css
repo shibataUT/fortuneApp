@@ -1,0 +1,13 @@
+.Featur__design_Container{
+    width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+
+.Featur__design__css{
+    width: 150px;
+    height: 150px;
+    background: pink;
+    border-radius: 50%;
+}
