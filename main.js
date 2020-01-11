@@ -1,10 +1,10 @@
 (function(){
     'use strict';
   
-    var btn = document.getElementById('btn');
-  
+    var btn = document.getElementById('Featur__design__js');
+
     btn.addEventListener('click', function(){
-      var n = Math.random()
+          var n = Math.random()
       if(n < 0.1){
         this.textContent = '大吉'; // 10%
       }else if (n < 0.3){
@@ -19,7 +19,7 @@
   
     });
     btn.addEventListener('mousedown', function(){
-      this.className = 'pushed';
+      this.className = 'Featur__design__css__strings';
     });
     btn.addEventListener('mouseup', function(){
       this.className = '';
