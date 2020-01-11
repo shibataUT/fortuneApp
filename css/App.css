@@ -10,6 +10,7 @@ h1{
     width: 100vw;
     height: 100vh;
     position: relative;
+    background: whitesmoke;
 }
 
 
@@ -49,4 +50,8 @@ h1{
     user-select: none;
     text-align: center;
     font-size: 30px;
+    width: 150px;
+    height: 150px;
+    background: pink;
+    border-radius: 50%;
 }
